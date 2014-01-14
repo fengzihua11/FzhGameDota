@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#FFFFFFFF</color>
+	<color name="half_alpha_white">#b5555555</color>	
+	<color name="all_alpha_white">#00ffffff</color>
+	<color name="gray">#FF383838</color>
+	<color name="half_alpha_gray">#d1383838</color>
+	<color name="black">#FF000000</color>
+	<color name="nullcolor">@null</color>
+	<color name="yellow">#FFDD4422</color>
+	<color name="red">#FFFF0000</color>
+	<color name="green">#FF00FF00</color>
+	<color name="unselectcolor">#FF000000</color>
+	<color name="selectcolor">#FFDD4422</color>
+	<color name="rightcolor">#FFAA4488</color>
+	<color name="blue">#FF0000FF</color>
+	<color name="historygray">#FF626262</color>
+	<color name="subicongray">#FF626262</color>
+	<color name="testmaintoptext">#FF58585A</color>
+	<color name="usermessagetext">#FF7d7d7d</color>
+</resources>

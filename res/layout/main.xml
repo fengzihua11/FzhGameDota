@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="@drawable/bg">
+	<TextView android:id="@+id/appTitle" android:layout_gravity="top|center_horizontal"
+		android:layout_marginTop="15dip" android:gravity="center"
+		android:layout_height="55dip" android:layout_width="wrap_content"
+		android:background="@drawable/title" />
+	<com.fzh.game.view.MyGallery android:id="@+id/allJiu"
+		android:layout_gravity="top|center_horizontal"
+		android:layout_marginTop="60dip" android:layout_width="match_parent"
+		android:spacing="20dip" android:layout_height="match_parent"
+		android:unselectedAlpha="255" />
+	<com.fzh.game.view.NumberView android:id="@+id/currentPoint"
+		android:layout_gravity="bottom|center_horizontal"
+		android:layout_width="match_parent" android:layout_marginBottom="30dip"
+		android:layout_height="60dip" android:scaleType="center"
+		android:focusable="false" android:clickable="false" />
+	<com.admogo.AdMogoLayout android:id="@+id/admogo_layout"
+		android:layout_gravity="bottom|center_horizontal" android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+</FrameLayout>

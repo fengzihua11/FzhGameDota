@@ -1,0 +1,809 @@
+com.admogo.adapters.DomobAdapter
+com.admogo.adapters.DomobAdapter: cn.domob.android.ads.DomobAdView adView
+com.admogo.adapters.DomobAdapter: android.app.Activity activity
+com.admogo.adapters.DomobAdapter: DomobAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.DomobAdapter: void handle()
+com.admogo.adapters.DomobAdapter: void onFailedToReceiveFreshAd(cn.domob.android.ads.DomobAdView)
+com.admogo.adapters.DomobAdapter: void onReceivedFreshAd(cn.domob.android.ads.DomobAdView)
+com.admogo.adapters.DomobAdapter: void finish()
+com.admogo.adapters.DomobAdapter: void onLandingPageClose()
+com.admogo.adapters.DomobAdapter: void onLandingPageOpening()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.AdMogoListener
+com.admogo.AdMogoListener: void onReceiveAd()
+com.admogo.AdMogoListener: void onFailedReceiveAd()
+com.admogo.AdMogoListener: void onClickAd()
+com.admogo.adapters.InMobiAdapter
+com.admogo.adapters.InMobiAdapter: com.admogo.obj.Extra extra
+com.admogo.adapters.InMobiAdapter: android.app.Activity activity
+com.admogo.adapters.InMobiAdapter: int adUnit
+com.admogo.adapters.InMobiAdapter: InMobiAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.InMobiAdapter: void handle()
+com.admogo.adapters.InMobiAdapter: void adRequestCompleted(com.inmobi.androidsdk.impl.InMobiAdView)
+com.admogo.adapters.InMobiAdapter: void adRequestFailed(com.inmobi.androidsdk.impl.InMobiAdView)
+com.admogo.adapters.InMobiAdapter: int age()
+com.admogo.adapters.InMobiAdapter: java.lang.String areaCode()
+com.admogo.adapters.InMobiAdapter: android.location.Location currentLocation()
+com.admogo.adapters.InMobiAdapter: java.util.Date dateOfBirth()
+com.admogo.adapters.InMobiAdapter: com.inmobi.androidsdk.EducationType education()
+com.admogo.adapters.InMobiAdapter: com.inmobi.androidsdk.EthnicityType ethnicity()
+com.admogo.adapters.InMobiAdapter: com.inmobi.androidsdk.GenderType gender()
+com.admogo.adapters.InMobiAdapter: int income()
+com.admogo.adapters.InMobiAdapter: java.lang.String interests()
+com.admogo.adapters.InMobiAdapter: boolean isLocationInquiryAllowed()
+com.admogo.adapters.InMobiAdapter: boolean isPublisherProvidingLocation()
+com.admogo.adapters.InMobiAdapter: java.lang.String keywords()
+com.admogo.adapters.InMobiAdapter: java.lang.String postalCode()
+com.admogo.adapters.InMobiAdapter: java.lang.String searchString()
+com.admogo.adapters.InMobiAdapter: java.lang.String siteId()
+com.admogo.adapters.InMobiAdapter: boolean testMode()
+com.admogo.adapters.InMobiAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.SmaatoAdapter
+com.admogo.adapters.SmaatoAdapter: com.smaato.SOMA.SOMABanner adView
+com.admogo.adapters.SmaatoAdapter: android.app.Activity activity
+com.admogo.adapters.SmaatoAdapter: int PublisherId
+com.admogo.adapters.SmaatoAdapter: int AdSpaceId
+com.admogo.adapters.SmaatoAdapter: boolean flag
+com.admogo.adapters.SmaatoAdapter: SmaatoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.SmaatoAdapter: void handle()
+com.admogo.adapters.SmaatoAdapter: void onFailedToReceiveAd(com.smaato.SOMA.AdDownloader,com.smaato.SOMA.ErrorCode)
+com.admogo.adapters.SmaatoAdapter: void onReceiveAd(com.smaato.SOMA.AdDownloader,com.smaato.SOMA.SOMAReceivedBanner)
+com.admogo.adapters.SmaatoAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.obj.Ration
+com.admogo.obj.Ration: java.lang.String nid
+com.admogo.obj.Ration: int type
+com.admogo.obj.Ration: java.lang.String name
+com.admogo.obj.Ration: double weight
+com.admogo.obj.Ration: java.lang.String key
+com.admogo.obj.Ration: java.lang.String key2
+com.admogo.obj.Ration: int priority
+com.admogo.obj.Ration: boolean testmodel
+com.admogo.obj.Ration: Ration()
+com.admogo.obj.Ration: int compareTo(com.admogo.obj.Ration)
+com.admogo.obj.Ration: int compareTo(java.lang.Object)
+com.admogo.GetUserInfo
+com.admogo.GetUserInfo: GetUserInfo()
+com.admogo.GetUserInfo: java.lang.String getDeviceID(android.content.Context)
+com.admogo.GetUserInfo: boolean isPermission(android.content.Context,java.lang.String)
+com.admogo.GetUserInfo: java.lang.String getIDByMAC(android.content.Context)
+com.admogo.GetUserInfo: java.lang.String getNetworkType(android.content.Context)
+com.admogo.GetUserInfo: java.lang.String getOperators(android.content.Context)
+com.admogo.GetUserInfo: java.lang.String GetCPUInfo()
+com.admogo.GetUserInfo: java.lang.String getMemoryInfo(android.content.Context)
+com.admogo.GetUserInfo: java.lang.String run(java.lang.String[],java.lang.String)
+com.admogo.adapters.AdChinaAdapter
+com.admogo.adapters.AdChinaAdapter: com.adchina.android.ads.views.AdView adView
+com.admogo.adapters.AdChinaAdapter: com.admogo.AdMogoLayout adMogoLayout
+com.admogo.adapters.AdChinaAdapter: android.app.Activity activity
+com.admogo.adapters.AdChinaAdapter: com.adchina.android.ads.views.FullScreenAdView mFullScreenImageView
+com.admogo.adapters.AdChinaAdapter: com.adchina.android.ads.AdEngine engine
+com.admogo.adapters.AdChinaAdapter: boolean flag
+com.admogo.adapters.AdChinaAdapter: AdChinaAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdChinaAdapter: void handle()
+com.admogo.adapters.AdChinaAdapter: boolean OnRecvSms(com.adchina.android.ads.views.AdView,java.lang.String)
+com.admogo.adapters.AdChinaAdapter: void onFailedToPlayVideoAd()
+com.admogo.adapters.AdChinaAdapter: void onFailedToReceiveAd(com.adchina.android.ads.views.AdView)
+com.admogo.adapters.AdChinaAdapter: void onFailedToReceiveFullScreenAd(com.adchina.android.ads.views.FullScreenAdView)
+com.admogo.adapters.AdChinaAdapter: void onFailedToReceiveVideoAd()
+com.admogo.adapters.AdChinaAdapter: void onFailedToRefreshAd(com.adchina.android.ads.views.AdView)
+com.admogo.adapters.AdChinaAdapter: void onPlayVideoAd()
+com.admogo.adapters.AdChinaAdapter: void onReceiveAd(com.adchina.android.ads.views.AdView)
+com.admogo.adapters.AdChinaAdapter: void onReceiveFullScreenAd(com.adchina.android.ads.views.FullScreenAdView)
+com.admogo.adapters.AdChinaAdapter: void onRefreshAd(com.adchina.android.ads.views.AdView)
+com.admogo.adapters.AdChinaAdapter: void finish()
+com.admogo.adapters.AdChinaAdapter: com.admogo.AdMogoLayout access$0(com.admogo.adapters.AdChinaAdapter)
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.WoobooAdapter
+com.admogo.adapters.WoobooAdapter: com.wooboo.adlib_android.WoobooAdView adView
+com.admogo.adapters.WoobooAdapter: android.app.Activity activity
+com.admogo.adapters.WoobooAdapter: WoobooAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.WoobooAdapter: void handle()
+com.admogo.adapters.WoobooAdapter: void onFailedToReceiveAd(java.lang.Object)
+com.admogo.adapters.WoobooAdapter: void onReceiveAd(java.lang.Object)
+com.admogo.adapters.WoobooAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.AdTouchAdapter
+com.admogo.adapters.AdTouchAdapter: com.energysource.szj.embeded.AdView adView
+com.admogo.adapters.AdTouchAdapter: android.app.Activity activity
+com.admogo.adapters.AdTouchAdapter: AdTouchAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdTouchAdapter: void handle()
+com.admogo.adapters.AdTouchAdapter: void failedReceiveAd(com.energysource.szj.embeded.AdView)
+com.admogo.adapters.AdTouchAdapter: void receiveAd(com.energysource.szj.embeded.AdView)
+com.admogo.adapters.AdTouchAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.AdMogoLayout$ViewAdRunnable
+com.admogo.AdMogoLayout$ViewAdRunnable: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.AdMogoLayout$ViewAdRunnable: android.view.ViewGroup nextView
+com.admogo.AdMogoLayout$ViewAdRunnable: AdMogoLayout$ViewAdRunnable(com.admogo.AdMogoLayout,android.view.ViewGroup,int)
+com.admogo.AdMogoLayout$ViewAdRunnable: void run()
+com.admogo.adapters.VponCNAdapter
+com.admogo.adapters.VponCNAdapter: android.app.Activity activity
+com.admogo.adapters.VponCNAdapter: VponCNAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.VponCNAdapter: void handle()
+com.admogo.adapters.VponCNAdapter: void onRecevieAd(com.vpon.adon.android.AdView)
+com.admogo.adapters.VponCNAdapter: void onFailedToRecevieAd(com.vpon.adon.android.AdView)
+com.admogo.adapters.VponCNAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.CaseeAdapter
+com.admogo.adapters.CaseeAdapter: com.casee.adsdk.CaseeAdView adView
+com.admogo.adapters.CaseeAdapter: android.app.Activity activity
+com.admogo.adapters.CaseeAdapter: CaseeAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.CaseeAdapter: void handle()
+com.admogo.adapters.CaseeAdapter: void onFailedToReceiveAd(com.casee.adsdk.CaseeAdView)
+com.admogo.adapters.CaseeAdapter: void onFailedToReceiveRefreshAd(com.casee.adsdk.CaseeAdView)
+com.admogo.adapters.CaseeAdapter: void onReceiveAd(com.casee.adsdk.CaseeAdView)
+com.admogo.adapters.CaseeAdapter: void onReceiveRefreshAd(com.casee.adsdk.CaseeAdView)
+com.admogo.adapters.CaseeAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.util.AdMogoUtil
+com.admogo.util.AdMogoUtil: int VERSION
+com.admogo.util.AdMogoUtil: java.lang.String VER
+com.admogo.util.AdMogoUtil: java.lang.String ADMOGO
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_ADMOB
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_JUMPTAP
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_VIDEOEGG
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_MEDIALETS
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_LIVERAIL
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_MILLENNIAL
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_GREYSTRIP
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_QUATTRO
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_CUSTOM
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_ADMOGO
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_MOBCLIX
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_MDOTM
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_4THSCREEN
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_ADSENSE
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_DOUBLECLICK
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_GENERIC
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_EVENT
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_INMOBI
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_ZESTADZ
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_ADCHINA
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_WIYUN
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_WOOBOO
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_YOUMI
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_CASEE
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_SMART
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_MOGO
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_ADTOUCH
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_DOMOB
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_VPON
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_AIRAD
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_ADWO
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_LSENSE
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_SMAATO
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_APPMEDIA
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_WINAD
+com.admogo.util.AdMogoUtil: int NETWORK_TYPE_IZP
+com.admogo.util.AdMogoUtil: int CUSTOM_TYPE_BANNER
+com.admogo.util.AdMogoUtil: int CUSTOM_TYPE_ICON
+com.admogo.util.AdMogoUtil: int MOGO_TYPE_BANNER
+com.admogo.util.AdMogoUtil: int MOGO_TYPE_ICON
+com.admogo.util.AdMogoUtil: double density
+com.admogo.util.AdMogoUtil: void <clinit>()
+com.admogo.util.AdMogoUtil: AdMogoUtil()
+com.admogo.util.AdMogoUtil: java.lang.String convertToHex(java.lang.String)
+com.admogo.util.AdMogoUtil: double getDensity(android.app.Activity)
+com.admogo.util.AdMogoUtil: int convertToScreenPixels(int,double)
+com.admogo.util.AdMogoUtil: double convertToScreenPixels(double,double)
+com.admogo.adapters.GoogleAdMobAdsAdapter
+com.admogo.adapters.GoogleAdMobAdsAdapter: com.google.ads.AdView adView
+com.admogo.adapters.GoogleAdMobAdsAdapter: android.app.Activity activity
+com.admogo.adapters.GoogleAdMobAdsAdapter: int[] $SWITCH_TABLE$com$admogo$AdMogoTargeting$Gender
+com.admogo.adapters.GoogleAdMobAdsAdapter: GoogleAdMobAdsAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.GoogleAdMobAdsAdapter: java.lang.String birthdayForAdMogoTargeting()
+com.admogo.adapters.GoogleAdMobAdsAdapter: com.google.ads.AdRequest$Gender genderForAdMogoTargeting()
+com.admogo.adapters.GoogleAdMobAdsAdapter: void handle()
+com.admogo.adapters.GoogleAdMobAdsAdapter: void log(java.lang.String)
+com.admogo.adapters.GoogleAdMobAdsAdapter: com.google.ads.AdRequest requestForAdMogoLayout(com.admogo.AdMogoLayout)
+com.admogo.adapters.GoogleAdMobAdsAdapter: void onDismissScreen(com.google.ads.Ad)
+com.admogo.adapters.GoogleAdMobAdsAdapter: void onFailedToReceiveAd(com.google.ads.Ad,com.google.ads.AdRequest$ErrorCode)
+com.admogo.adapters.GoogleAdMobAdsAdapter: void onLeaveApplication(com.google.ads.Ad)
+com.admogo.adapters.GoogleAdMobAdsAdapter: void onPresentScreen(com.google.ads.Ad)
+com.admogo.adapters.GoogleAdMobAdsAdapter: void onReceiveAd(com.google.ads.Ad)
+com.admogo.adapters.GoogleAdMobAdsAdapter: void finish()
+com.admogo.adapters.GoogleAdMobAdsAdapter: int[] $SWITCH_TABLE$com$admogo$AdMogoTargeting$Gender()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.obj.Mogo
+com.admogo.obj.Mogo: int type
+com.admogo.obj.Mogo: java.lang.String link
+com.admogo.obj.Mogo: android.graphics.drawable.Drawable image
+com.admogo.obj.Mogo: java.lang.String imageLink
+com.admogo.obj.Mogo: java.lang.String description
+com.admogo.obj.Mogo: Mogo()
+com.admogo.adapters.WiyunAdapter
+com.admogo.adapters.WiyunAdapter: com.wiyun.ad.AdView adView
+com.admogo.adapters.WiyunAdapter: android.app.Activity activity
+com.admogo.adapters.WiyunAdapter: WiyunAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.WiyunAdapter: void handle()
+com.admogo.adapters.WiyunAdapter: void onAdClicked()
+com.admogo.adapters.WiyunAdapter: void onAdLoadFailed()
+com.admogo.adapters.WiyunAdapter: void onAdLoaded()
+com.admogo.adapters.WiyunAdapter: void onExitButtonClicked()
+com.admogo.adapters.WiyunAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.AdwoAdapter
+com.admogo.adapters.AdwoAdapter: com.adwo.adsdk.AdwoAdView adView
+com.admogo.adapters.AdwoAdapter: android.app.Activity activity
+com.admogo.adapters.AdwoAdapter: com.admogo.AdMogoLayout adMogoLayout
+com.admogo.adapters.AdwoAdapter: com.adwo.adsdk.FSAdUtil adUtil
+com.admogo.adapters.AdwoAdapter: int SPLASH_AD_REQUEST
+com.admogo.adapters.AdwoAdapter: AdwoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdwoAdapter: void handle()
+com.admogo.adapters.AdwoAdapter: void onFailedToReceiveAd(com.adwo.adsdk.AdwoAdView)
+com.admogo.adapters.AdwoAdapter: void onFailedToReceiveRefreshedAd(com.adwo.adsdk.AdwoAdView)
+com.admogo.adapters.AdwoAdapter: void onReceiveAd(com.adwo.adsdk.AdwoAdView)
+com.admogo.adapters.AdwoAdapter: void onFailedToReceiveAd()
+com.admogo.adapters.AdwoAdapter: void onReceiveAd(com.adwo.adsdk.FSAd)
+com.admogo.adapters.AdwoAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.MdotMAdapter
+com.admogo.adapters.MdotMAdapter: android.app.Activity activity
+com.admogo.adapters.MdotMAdapter: MdotMAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.MdotMAdapter: void handle()
+com.admogo.adapters.MdotMAdapter: void adRequestCompletedSuccessfully(com.mdotm.android.ads.MdotMView)
+com.admogo.adapters.MdotMAdapter: void adRequestFailed(com.mdotm.android.ads.MdotMView)
+com.admogo.adapters.MdotMAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.WinAdAdapter
+com.admogo.adapters.WinAdAdapter: android.app.Activity activity
+com.admogo.adapters.WinAdAdapter: com.winad.android.ads.AdView adView
+com.admogo.adapters.WinAdAdapter: WinAdAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.WinAdAdapter: void handle()
+com.admogo.adapters.WinAdAdapter: void onFailedToReceiveAd(com.winad.android.ads.AdView)
+com.admogo.adapters.WinAdAdapter: void onReceiveAd(com.winad.android.ads.AdView)
+com.admogo.adapters.WinAdAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.YoumiAdapter
+com.admogo.adapters.YoumiAdapter: net.youmi.android.AdView adView
+com.admogo.adapters.YoumiAdapter: android.app.Activity activity
+com.admogo.adapters.YoumiAdapter: java.lang.String AppID
+com.admogo.adapters.YoumiAdapter: java.lang.String AppSecret
+com.admogo.adapters.YoumiAdapter: YoumiAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.YoumiAdapter: void handle()
+com.admogo.adapters.YoumiAdapter: void finish()
+com.admogo.adapters.YoumiAdapter: void onConnectFailed(net.youmi.android.AdView)
+com.admogo.adapters.YoumiAdapter: void onAdViewSwitchedAd(net.youmi.android.AdView)
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.SmartMADAdapter
+com.admogo.adapters.SmartMADAdapter: com.madhouse.android.ads.AdView adView
+com.admogo.adapters.SmartMADAdapter: java.lang.String AppID
+com.admogo.adapters.SmartMADAdapter: java.lang.String AdSpaceID
+com.admogo.adapters.SmartMADAdapter: android.app.Activity activity
+com.admogo.adapters.SmartMADAdapter: SmartMADAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.SmartMADAdapter: void handle()
+com.admogo.adapters.SmartMADAdapter: void onAdStatus(int)
+com.admogo.adapters.SmartMADAdapter: void onAdEvent(com.madhouse.android.ads.AdView,int)
+com.admogo.adapters.SmartMADAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.AdMogoLayout
+com.admogo.AdMogoLayout: java.lang.String urlImpression
+com.admogo.AdMogoLayout: java.lang.String urlClick
+com.admogo.AdMogoLayout: java.lang.String urlRequest
+com.admogo.AdMogoLayout: java.lang.String urlNull
+com.admogo.AdMogoLayout: java.lang.String ADMOGO_KEY
+com.admogo.AdMogoLayout: java.lang.String ADMOGO_ADTYPE
+com.admogo.AdMogoLayout: java.lang.ref.WeakReference activityReference
+com.admogo.AdMogoLayout: android.content.Context getContext
+com.admogo.AdMogoLayout: android.os.Handler handler
+com.admogo.AdMogoLayout: java.util.concurrent.ScheduledExecutorService scheduler
+com.admogo.AdMogoLayout: java.util.concurrent.ScheduledExecutorService twice_schedulera
+com.admogo.AdMogoLayout: java.lang.String keyAdMogo
+com.admogo.AdMogoLayout: com.admogo.obj.Extra extra
+com.admogo.AdMogoLayout: com.admogo.obj.Custom custom
+com.admogo.AdMogoLayout: com.admogo.obj.Mogo mogo
+com.admogo.AdMogoLayout: java.lang.ref.WeakReference superViewReference
+com.admogo.AdMogoLayout: com.admogo.obj.Ration activeRation
+com.admogo.AdMogoLayout: com.admogo.obj.Ration nextRation
+com.admogo.AdMogoLayout: java.lang.String clickview
+com.admogo.AdMogoLayout: java.lang.String clickflag
+com.admogo.AdMogoLayout: int index
+com.admogo.AdMogoLayout: int totalAdType
+com.admogo.AdMogoLayout: com.admogo.AdMogoListener adMogoListener
+com.admogo.AdMogoLayout: com.admogo.AdMogoManager adMogoManager
+com.admogo.AdMogoLayout: boolean hasWindow
+com.admogo.AdMogoLayout: boolean isScheduled
+com.admogo.AdMogoLayout: int maxWidth
+com.admogo.AdMogoLayout: int ad_type
+com.admogo.AdMogoLayout: java.lang.String countryCode
+com.admogo.AdMogoLayout: int width
+com.admogo.AdMogoLayout: int height
+com.admogo.AdMogoLayout: int maxHeight
+com.admogo.AdMogoLayout: boolean isEmulator
+com.admogo.AdMogoLayout: void <clinit>()
+com.admogo.AdMogoLayout: void setMaxWidth(int)
+com.admogo.AdMogoLayout: void setMaxHeight(int)
+com.admogo.AdMogoLayout: AdMogoLayout(android.app.Activity,java.lang.String,int)
+com.admogo.AdMogoLayout: AdMogoLayout(android.app.Activity,java.lang.String)
+com.admogo.AdMogoLayout: AdMogoLayout(android.content.Context,android.util.AttributeSet)
+com.admogo.AdMogoLayout: java.lang.String getAdMogoKey(android.content.Context)
+com.admogo.AdMogoLayout: void init(android.app.Activity,java.lang.String,int)
+com.admogo.AdMogoLayout: void onMeasure(int,int)
+com.admogo.AdMogoLayout: void onWindowVisibilityChanged(int)
+com.admogo.AdMogoLayout: void rotateAd()
+com.admogo.AdMogoLayout: void handleAd()
+com.admogo.AdMogoLayout: void rotateThreadedNow()
+com.admogo.AdMogoLayout: void rotateThreadedDelayed()
+com.admogo.AdMogoLayout: void pushSubView(android.view.ViewGroup,int)
+com.admogo.AdMogoLayout: void rollover()
+com.admogo.AdMogoLayout: void countRequest()
+com.admogo.AdMogoLayout: void countImpression()
+com.admogo.AdMogoLayout: void countClick()
+com.admogo.AdMogoLayout: void countFailed()
+com.admogo.AdMogoLayout: boolean onInterceptTouchEvent(android.view.MotionEvent)
+com.admogo.AdMogoLayout: void setAdMogoListener(com.admogo.AdMogoListener)
+com.admogo.AdMogoLayout: void CountImpAd()
+com.admogo.AdMogoLayout: void insertData(java.lang.Object[])
+com.admogo.AdMogoLayout: int getAdType()
+com.admogo.AdMogoLayout: boolean access$0(com.admogo.AdMogoLayout)
+com.admogo.AdMogoLayout: void access$1(com.admogo.AdMogoLayout,boolean)
+com.admogo.AdMogoLayout: void access$2(boolean)
+com.admogo.AdMogoLayout: boolean access$3()
+com.admogo.AdMogoLayout: void access$4(java.lang.String)
+com.admogo.AdMogoLayout: java.lang.String access$5()
+com.admogo.AdMogoLayout: void access$6(com.admogo.AdMogoLayout)
+com.admogo.AdMogoLayout: void access$7(com.admogo.AdMogoLayout)
+com.admogo.AdMogoLayout: void access$8(int)
+com.admogo.AdMogoLayout: int access$9()
+com.admogo.AdMogoLayout: void access$10(java.lang.Object[])
+com.admogo.obj.Extra
+com.admogo.obj.Extra: int fgRed
+com.admogo.obj.Extra: int fgGreen
+com.admogo.obj.Extra: int fgBlue
+com.admogo.obj.Extra: int fgAlpha
+com.admogo.obj.Extra: int bgRed
+com.admogo.obj.Extra: int bgGreen
+com.admogo.obj.Extra: int bgBlue
+com.admogo.obj.Extra: int bgAlpha
+com.admogo.obj.Extra: int cycleTime
+com.admogo.obj.Extra: int locationOn
+com.admogo.obj.Extra: int transition
+com.admogo.obj.Extra: int improveClick
+com.admogo.obj.Extra: Extra()
+com.admogo.adapters.MogoAdapter
+com.admogo.adapters.MogoAdapter: MogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.MogoAdapter: void handle()
+com.admogo.adapters.MogoAdapter: void displayMogo()
+com.admogo.adapters.MogoAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.AdMogoTargeting$Gender
+com.admogo.AdMogoTargeting$Gender: com.admogo.AdMogoTargeting$Gender UNKNOWN
+com.admogo.AdMogoTargeting$Gender: com.admogo.AdMogoTargeting$Gender MALE
+com.admogo.AdMogoTargeting$Gender: com.admogo.AdMogoTargeting$Gender FEMALE
+com.admogo.AdMogoTargeting$Gender: com.admogo.AdMogoTargeting$Gender[] ENUM$VALUES
+com.admogo.AdMogoTargeting$Gender: void <clinit>()
+com.admogo.AdMogoTargeting$Gender: AdMogoTargeting$Gender(java.lang.String,int)
+com.admogo.AdMogoTargeting$Gender: com.admogo.AdMogoTargeting$Gender[] values()
+com.admogo.AdMogoTargeting$Gender: com.admogo.AdMogoTargeting$Gender valueOf(java.lang.String)
+com.admogo.adapters.GreystripeAdapter
+com.admogo.adapters.GreystripeAdapter: com.greystripe.android.sdk.BannerView adView
+com.admogo.adapters.GreystripeAdapter: android.app.Activity activity
+com.admogo.adapters.GreystripeAdapter: com.greystripe.android.sdk.GSSDK sdk
+com.admogo.adapters.GreystripeAdapter: GreystripeAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.GreystripeAdapter: void handle()
+com.admogo.adapters.GreystripeAdapter: void onFailedToReceiveAd(com.greystripe.android.sdk.BannerView)
+com.admogo.adapters.GreystripeAdapter: void onReceivedAd(com.greystripe.android.sdk.BannerView)
+com.admogo.adapters.GreystripeAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.DataBackup
+com.admogo.DataBackup: java.lang.String DATABASE_NAME
+com.admogo.DataBackup: int DATABASE_VERSION
+com.admogo.DataBackup: com.admogo.DataBackup$DatabaseHelper mDbHelper
+com.admogo.DataBackup: android.database.sqlite.SQLiteDatabase mDb
+com.admogo.DataBackup: java.lang.String TABLE_MOGO_BACKUP
+com.admogo.DataBackup: java.lang.String UID
+com.admogo.DataBackup: java.lang.String NID
+com.admogo.DataBackup: java.lang.String AID
+com.admogo.DataBackup: java.lang.String COUNTRY
+com.admogo.DataBackup: java.lang.String TYPE
+com.admogo.DataBackup: java.lang.String REQUEST
+com.admogo.DataBackup: java.lang.String IMPRESSION
+com.admogo.DataBackup: java.lang.String CLICK
+com.admogo.DataBackup: java.lang.String BLANK
+com.admogo.DataBackup: java.lang.String DATETIME
+com.admogo.DataBackup: java.lang.String ADTYPE
+com.admogo.DataBackup: java.lang.String CREATE_MOGO_BACKUP
+com.admogo.DataBackup: DataBackup()
+com.admogo.DataBackup: void open(android.content.Context)
+com.admogo.DataBackup: void close()
+com.admogo.DataBackup: long insertData(java.lang.Object[])
+com.admogo.DataBackup: java.lang.String getDataList()
+com.admogo.DataBackup: boolean clearData()
+com.admogo.DataBackup: java.lang.String getStrTime(long)
+com.admogo.obj.Custom
+com.admogo.obj.Custom: int type
+com.admogo.obj.Custom: java.lang.String link
+com.admogo.obj.Custom: android.graphics.drawable.Drawable image
+com.admogo.obj.Custom: java.lang.String imageLink
+com.admogo.obj.Custom: java.lang.String description
+com.admogo.obj.Custom: Custom()
+com.admogo.adapters.CustomAdapter
+com.admogo.adapters.CustomAdapter: CustomAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.CustomAdapter: void handle()
+com.admogo.adapters.CustomAdapter: void displayCustom()
+com.admogo.adapters.CustomAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.AppMediaAdapter
+com.admogo.adapters.AppMediaAdapter: cn.appmedia.ad.BannerAdView bannerAdView
+com.admogo.adapters.AppMediaAdapter: android.app.Activity activity
+com.admogo.adapters.AppMediaAdapter: AppMediaAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AppMediaAdapter: void handle()
+com.admogo.adapters.AppMediaAdapter: void finish()
+com.admogo.adapters.AppMediaAdapter: void onReceiveAdFailure(cn.appmedia.ad.BannerAdView)
+com.admogo.adapters.AppMediaAdapter: void onReceiveAdSuccess(cn.appmedia.ad.BannerAdView)
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.AdMogoTargeting
+com.admogo.AdMogoTargeting: java.lang.String appName
+com.admogo.AdMogoTargeting: java.lang.String companyName
+com.admogo.AdMogoTargeting: com.admogo.AdMogoTargeting$Gender gender
+com.admogo.AdMogoTargeting: java.util.GregorianCalendar birthDate
+com.admogo.AdMogoTargeting: java.lang.String birthday
+com.admogo.AdMogoTargeting: java.lang.String postalCode
+com.admogo.AdMogoTargeting: java.lang.String keywords
+com.admogo.AdMogoTargeting: java.util.Set keywordSet
+com.admogo.AdMogoTargeting: java.lang.String telephoneNumber
+com.admogo.AdMogoTargeting: int adchinaDefaultImage
+com.admogo.AdMogoTargeting: java.lang.String countryCode
+com.admogo.AdMogoTargeting: int PHONE_BANNER_AD
+com.admogo.AdMogoTargeting: int APad_BIG_BANNER_AD
+com.admogo.AdMogoTargeting: int APad_SMALL_BANNER_AD
+com.admogo.AdMogoTargeting: int APad_RECTANGLE_AD
+com.admogo.AdMogoTargeting: int APad_SKYSCRAPER_AD
+com.admogo.AdMogoTargeting: int FULLSCREEN_AD
+com.admogo.AdMogoTargeting: int VIDEO_AD
+com.admogo.AdMogoTargeting: void <clinit>()
+com.admogo.AdMogoTargeting: AdMogoTargeting()
+com.admogo.AdMogoTargeting: void resetData()
+com.admogo.AdMogoTargeting: java.lang.String getAppName()
+com.admogo.AdMogoTargeting: void setAppName(java.lang.String)
+com.admogo.AdMogoTargeting: java.lang.String getCompanyName()
+com.admogo.AdMogoTargeting: void setCompanyName(java.lang.String)
+com.admogo.AdMogoTargeting: void setTestMode(boolean)
+com.admogo.AdMogoTargeting: com.admogo.AdMogoTargeting$Gender getGender()
+com.admogo.AdMogoTargeting: void setGender(com.admogo.AdMogoTargeting$Gender)
+com.admogo.AdMogoTargeting: int getAge()
+com.admogo.AdMogoTargeting: java.lang.String getBirthday()
+com.admogo.AdMogoTargeting: void setBirthday(java.lang.String)
+com.admogo.AdMogoTargeting: java.util.GregorianCalendar getBirthDate()
+com.admogo.AdMogoTargeting: void setBirthDate(java.util.GregorianCalendar)
+com.admogo.AdMogoTargeting: void setAge(int)
+com.admogo.AdMogoTargeting: java.lang.String getPostalCode()
+com.admogo.AdMogoTargeting: void setPostalCode(java.lang.String)
+com.admogo.AdMogoTargeting: java.util.Set getKeywordSet()
+com.admogo.AdMogoTargeting: java.lang.String getKeywords()
+com.admogo.AdMogoTargeting: void setKeywordSet(java.util.Set)
+com.admogo.AdMogoTargeting: void setKeywords(java.lang.String)
+com.admogo.AdMogoTargeting: void addKeyword(java.lang.String)
+com.admogo.AdMogoTargeting: java.lang.String getTelephoneNumber()
+com.admogo.AdMogoTargeting: void setTelephoneNumber(java.lang.String)
+com.admogo.AdMogoTargeting: int getAdchinaDefaultImage()
+com.admogo.AdMogoTargeting: void setAdchinaDefaultImage(int)
+com.admogo.adapters.MillennialAdapter
+com.admogo.adapters.MillennialAdapter: com.millennialmedia.android.MMAdView adView
+com.admogo.adapters.MillennialAdapter: com.millennialmedia.android.MMAdView interAdView
+com.admogo.adapters.MillennialAdapter: android.app.Activity activity
+com.admogo.adapters.MillennialAdapter: java.util.Hashtable map
+com.admogo.adapters.MillennialAdapter: MillennialAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.MillennialAdapter: void handle()
+com.admogo.adapters.MillennialAdapter: void showInterstitial(android.app.Activity,java.lang.String)
+com.admogo.adapters.MillennialAdapter: void MMAdClickedToNewBrowser(com.millennialmedia.android.MMAdView)
+com.admogo.adapters.MillennialAdapter: void MMAdClickedToOverlay(com.millennialmedia.android.MMAdView)
+com.admogo.adapters.MillennialAdapter: void MMAdFailed(com.millennialmedia.android.MMAdView)
+com.admogo.adapters.MillennialAdapter: void MMAdOverlayLaunched(com.millennialmedia.android.MMAdView)
+com.admogo.adapters.MillennialAdapter: void MMAdRequestIsCaching(com.millennialmedia.android.MMAdView)
+com.admogo.adapters.MillennialAdapter: void MMAdReturned(com.millennialmedia.android.MMAdView)
+com.admogo.adapters.MillennialAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.adapters.ZestAdzAdapter
+com.admogo.adapters.ZestAdzAdapter: android.app.Activity activity
+com.admogo.adapters.ZestAdzAdapter: ZestAdzAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.ZestAdzAdapter: void handle()
+com.admogo.adapters.ZestAdzAdapter: void AdReturned(com.zestadz.android.ZestADZAdView)
+com.admogo.adapters.ZestAdzAdapter: void AdFailed(com.zestadz.android.ZestADZAdView)
+com.admogo.adapters.ZestAdzAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.admogo.AdMogoManager
+com.admogo.AdMogoManager: java.lang.String urlConfig
+com.admogo.AdMogoManager: java.lang.String urlCustom
+com.admogo.AdMogoManager: java.lang.String urlMogo
+com.admogo.AdMogoManager: java.lang.String urlRecordData
+com.admogo.AdMogoManager: java.lang.String keyAdMogo
+com.admogo.AdMogoManager: java.util.Hashtable tempConfig
+com.admogo.AdMogoManager: com.admogo.obj.Extra extra
+com.admogo.AdMogoManager: java.util.List rationsList
+com.admogo.AdMogoManager: java.util.List tempRationsList
+com.admogo.AdMogoManager: double totalWeight
+com.admogo.AdMogoManager: java.lang.ref.WeakReference contextReference
+com.admogo.AdMogoManager: long configExpireTimeout
+com.admogo.AdMogoManager: java.util.Iterator rollovers
+com.admogo.AdMogoManager: java.lang.String deviceIDHash
+com.admogo.AdMogoManager: double versionCode
+com.admogo.AdMogoManager: java.lang.String packageName
+com.admogo.AdMogoManager: java.lang.String networkType
+com.admogo.AdMogoManager: java.lang.String os
+com.admogo.AdMogoManager: java.lang.String deviceName
+com.admogo.AdMogoManager: java.lang.String operInfo
+com.admogo.AdMogoManager: java.lang.String cpuInfo
+com.admogo.AdMogoManager: java.lang.String memoryInfo
+com.admogo.AdMogoManager: int ad_type
+com.admogo.AdMogoManager: java.lang.String gender
+com.admogo.AdMogoManager: java.lang.String birthday
+com.admogo.AdMogoManager: java.lang.String keywords
+com.admogo.AdMogoManager: com.admogo.obj.Ration lastRation
+com.admogo.AdMogoManager: android.location.Location location
+com.admogo.AdMogoManager: java.lang.String getCountryCode
+com.admogo.AdMogoManager: java.lang.String screenSize
+com.admogo.AdMogoManager: int adType
+com.admogo.AdMogoManager: boolean isSendData
+com.admogo.AdMogoManager: java.util.concurrent.ScheduledExecutorService scheduler
+com.admogo.AdMogoManager: java.lang.String PREFS_STRING_TIMESTAMP
+com.admogo.AdMogoManager: java.lang.String PREFS_STRING_CONFIG
+com.admogo.AdMogoManager: boolean refetchConfig
+com.admogo.AdMogoManager: void <clinit>()
+com.admogo.AdMogoManager: AdMogoManager(java.lang.ref.WeakReference,java.lang.String,int)
+com.admogo.AdMogoManager: void setConfigExpireTimeout(long)
+com.admogo.AdMogoManager: com.admogo.obj.Extra getExtra()
+com.admogo.AdMogoManager: com.admogo.obj.Ration getRation(com.admogo.obj.Ration)
+com.admogo.AdMogoManager: com.admogo.obj.Ration getRollover()
+com.admogo.AdMogoManager: void resetRollover()
+com.admogo.AdMogoManager: com.admogo.obj.Custom getCustom(java.lang.String)
+com.admogo.AdMogoManager: com.admogo.obj.Mogo getMogo(java.lang.String)
+com.admogo.AdMogoManager: void fetchConfig()
+com.admogo.AdMogoManager: java.lang.String convertStreamToString(java.io.InputStream)
+com.admogo.AdMogoManager: void parseConfigurationString(java.lang.String)
+com.admogo.AdMogoManager: void parseExtraJson(org.json.JSONObject)
+com.admogo.AdMogoManager: void parseRationsJson(org.json.JSONArray)
+com.admogo.AdMogoManager: com.admogo.obj.Custom parseCustomJsonString(java.lang.String)
+com.admogo.AdMogoManager: com.admogo.obj.Mogo parseMogoJsonString(java.lang.String)
+com.admogo.AdMogoManager: android.graphics.drawable.Drawable fetchImage(java.lang.String)
+com.admogo.AdMogoManager: void setLocation(java.lang.String)
+com.admogo.AdMogoManager: android.location.Location getLocation()
+com.admogo.AdMogoManager: void clear()
+com.admogo.AdMogoManager: java.lang.ref.WeakReference access$0(com.admogo.AdMogoManager)
+com.admogo.adapters.LSenseAdapter
+com.admogo.adapters.LSenseAdapter: com.l.adlib_android.AdView adView
+com.admogo.adapters.LSenseAdapter: android.app.Activity activity
+com.admogo.adapters.LSenseAdapter: com.l.adlib_android.AdViewFull adViewFull
+com.admogo.adapters.LSenseAdapter: LSenseAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.LSenseAdapter: void handle()
+com.admogo.adapters.LSenseAdapter: void OnAcceptAd(int)
+com.admogo.adapters.LSenseAdapter: void OnConnectFailed(java.lang.String)
+com.admogo.adapters.LSenseAdapter: void finish()
+com.admogo.adapters.AdMogoAdapter: java.lang.ref.WeakReference adMogoLayoutReference
+com.admogo.adapters.AdMogoAdapter: com.admogo.obj.Ration ration
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter adapter
+com.admogo.adapters.AdMogoAdapter: AdMogoAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getAdapter(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter getNetworkAdapter(java.lang.String,com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: com.admogo.adapters.AdMogoAdapter unknownAdNetwork(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle(com.admogo.AdMogoLayout,com.admogo.obj.Ration)
+com.admogo.adapters.AdMogoAdapter: void handle()
+com.admogo.adapters.AdMogoAdapter: void finish()
+com.fzh.game.view.Game24SurfaceView
+com.fzh.game.view.Game24SurfaceView: Game24SurfaceView(android.content.Context,android.util.AttributeSet)
+com.adwo.adsdk.AdwoAdView
+com.adwo.adsdk.AdwoAdView: AdwoAdView(android.content.Context,android.util.AttributeSet)
+com.fzh.game.view.Game24View
+com.fzh.game.view.Game24View: Game24View(android.content.Context,android.util.AttributeSet)
+com.fzh.game.view.Game24AnswerView
+com.fzh.game.view.Game24AnswerView: Game24AnswerView(android.content.Context,android.util.AttributeSet)
+com.admogo.AdMogoLayout
+com.admogo.AdMogoLayout: AdMogoLayout(android.content.Context,android.util.AttributeSet)
+com.adwo.adsdk.AdwoAdView
+com.adwo.adsdk.AdwoAdView: AdwoAdView(android.content.Context,android.util.AttributeSet,int)
+com.adwo.adsdk.P: com.adwo.adsdk.P[] values()
+com.adwo.adsdk.P: com.adwo.adsdk.P valueOf(java.lang.String)
+com.fzh.game.view.Game24View$AnimationStatus: com.fzh.game.view.Game24View$AnimationStatus[] values()
+com.fzh.game.view.Game24View$AnimationStatus: com.fzh.game.view.Game24View$AnimationStatus valueOf(java.lang.String)
+com.fzh.game.bean.CardBean$CardType: com.fzh.game.bean.CardBean$CardType[] values()
+com.fzh.game.bean.CardBean$CardType: com.fzh.game.bean.CardBean$CardType valueOf(java.lang.String)
+com.admogo.AdMogoTargeting$Gender: com.admogo.AdMogoTargeting$Gender[] values()
+com.admogo.AdMogoTargeting$Gender: com.admogo.AdMogoTargeting$Gender valueOf(java.lang.String)
+com.fzh.game.ershi.FzhGame24Activity
+com.adwo.adsdk.AdwoAdBrowserActivity
+com.admogo.util.AdMogoUtil
+com.adwo.adsdk.AdwoSplashAdActivity
+com.adwo.adsdk.FSAd
+com.adwo.adsdk.FSAd: android.os.Parcelable$Creator CREATOR

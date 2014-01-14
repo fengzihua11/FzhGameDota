@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<LinearLayout android:id="@+id/mainFrm"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:orientation="vertical">
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="60dip">
+			<LinearLayout android:id="@+id/desLin"
+				android:layout_height="match_parent" android:layout_width="0dip"
+				android:layout_weight="1" android:gravity="center"
+				android:background="@color/gray">
+				<TextView android:id="@+id/desHero" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_gravity="center"
+					android:textColor="@color/white" android:textSize="18sp"
+					android:shadowColor="@color/yellow" android:shadowRadius="2"
+					android:text="简介" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/shuLin" android:gravity="center"
+				android:layout_height="match_parent" android:layout_width="0dip"
+				android:layout_weight="1">
+				<TextView android:id="@+id/shuHero" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_gravity="center"
+					android:textColor="@color/white" android:textSize="18sp"
+					android:shadowColor="@color/yellow" android:shadowRadius="2"
+					android:text="属性" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/jiLin" android:gravity="center"
+				android:layout_height="match_parent" android:layout_width="0dip"
+				android:layout_weight="1">
+				<TextView android:id="@+id/jiHero" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_gravity="center"
+					android:textColor="@color/white" android:textSize="18sp"
+					android:shadowColor="@color/yellow" android:shadowRadius="2"
+					android:text="技能" />
+			</LinearLayout>
+			<LinearLayout android:id="@+id/zhangLin"
+				android:gravity="center" android:layout_height="match_parent"
+				android:layout_width="0dip" android:layout_weight="1">
+				<TextView android:id="@+id/zhangHero" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_gravity="center"
+					android:textColor="@color/white" android:textSize="18sp"
+					android:shadowColor="@color/yellow" android:shadowRadius="2"
+					android:text="装备" />
+			</LinearLayout>
+		</LinearLayout>
+		<View android:layout_width="match_parent" android:layout_height="4dip"
+			android:background="@android:color/darker_gray" />
+		<FrameLayout android:id="@+id/childAct"
+			android:layout_marginLeft="10dip" android:layout_marginRight="10dip"
+			android:layout_marginTop="5dip" android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	</LinearLayout>
+	<com.admogo.AdMogoLayout android:id="@+id/admogo_layout"
+		android:layout_gravity="bottom|center_horizontal"
+		android:layout_width="match_parent" android:layout_height="wrap_content" />
+</FrameLayout>

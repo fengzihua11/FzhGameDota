@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FzhGameWar3Activity!</string>
+    <string name="app_name">我爱玩Dota</string>
+    <string name="apptitle">Dota 教程</string>
+    <string name="ad_show_content">点击底部广告，可以隐藏！</string>	
+</resources>

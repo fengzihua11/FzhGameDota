@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:layout_gravity="top|center_horizontal" android:focusable="false">
+	<FrameLayout android:layout_gravity="top"
+		android:layout_width="match_parent" android:layout_height="80dip"
+		android:layout_marginTop="15dip" android:layout_marginLeft="25dip"
+		android:layout_marginRight="25dip">
+		<ImageView android:id="@+id/jiuImg" android:layout_gravity="left|top"
+			android:layout_width="80dip" android:layout_height="80dip" />
+		<LinearLayout android:layout_gravity="right|top"
+			android:gravity="bottom|right" android:layout_width="255dip"
+			android:layout_height="80dip">
+			<TextView android:id="@+id/jiuName" android:gravity="center"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FF568965" android:textSize="30sp"
+				android:textStyle="bold" />
+		</LinearLayout>
+	</FrameLayout>
+
+	<TableLayout android:layout_gravity="top|center_horizontal"
+		android:focusable="false" android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip" android:layout_marginTop="110dip"
+		android:layout_width="match_parent" android:layout_height="wrap_content">
+		<TableRow android:layout_width="match_parent"
+			android:focusable="false" android:layout_height="70dip">
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:focusable="false"
+				android:layout_height="65dip">
+				<ImageView android:id="@+id/hero11" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:focusable="false"
+				android:layout_height="65dip">
+				<ImageView android:id="@+id/hero12" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero13" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero14" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+		</TableRow>
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="70dip">
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero21" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero22" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero23" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero24" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+		</TableRow>
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="70dip">
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero31" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero32" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero33" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero34" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+		</TableRow>
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="70dip">
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero41" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero42" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero43" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+			<FrameLayout android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="65dip">
+				<ImageView android:id="@+id/hero44" android:background="@drawable/defaulttou"
+					android:layout_gravity="center" android:layout_width="60dip"
+					android:focusable="false" android:clickable="false"
+					android:layout_height="60dip" android:scaleType="fitCenter" />
+			</FrameLayout>
+		</TableRow>
+	</TableLayout>
+</FrameLayout>
