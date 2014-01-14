@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.fzh.game.dota" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".DotaLoadAct"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".DotaMainAct" android:launchMode="singleTask"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+		</activity>
+		<activity android:name=".HeroDesAct" android:launchMode="singleTask"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+		</activity>
+		<activity android:name=".DesAct" android:launchMode="singleTask"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+		</activity>
+		<activity android:name=".ShuAct" android:launchMode="singleTask"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+		</activity>
+		<activity android:name=".JiAct" android:launchMode="singleTask"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+		</activity>
+		<activity android:name=".ZhangAct" android:launchMode="singleTask"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+		</activity>
+		<!-- 安沃 integration -->
+		<activity android:name="com.adwo.adsdk.AdwoAdBrowserActivity"
+			android:label="@string/app_name" />
+		<meta-data android:value="d0ed3804edc748c5bb8195edac81e60f"
+			android:name="ADMOGO_KEY" />
+	</application>
+	
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	
+</manifest>
